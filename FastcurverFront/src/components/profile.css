@@ -1,0 +1,125 @@
+.formcontainer {
+
+    /* margin: 0 auto; */
+    width: 300px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  @media (max-width: 480px) {
+    .formcontainer {
+      width: 50%;  
+     
+    }
+  }
+  
+  
+  @media (max-width: 600px) {
+    .formcontainer {
+      width: 90%; 
+      padding: 15px; 
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .formcontainer {
+      width: 85%;  
+      padding: 20px;  
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    .formcontainer {
+      width: 600px; 
+      padding: 20px;
+    }
+  }
+  
+
+  @media (min-width: 1025px) {
+    .formcontainer {
+      width: 800px; 
+      padding: 25px;
+    }
+  }
+  
+
+  @media (min-width: 1400px) {
+    .formcontainer {
+      width: 1000px; 
+      padding: 30px;
+    }
+  }
+  
+
+  .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  .mb-3 label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .mb-3 input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .d-grid {
+    display: grid;
+    place-items: center;
+  }
+  
+  .d-grid button {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 18px;
+    user-select: none;
+    width: fit-content;
+    border: 0;
+  }
+  
+  .d-grid button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-heading {
+    padding: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
